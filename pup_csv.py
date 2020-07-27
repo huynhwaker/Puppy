@@ -12,10 +12,7 @@ from twilio.rest import Client
 ##async def on_ready():
 ##    print('Bot is ready!')
 ##
-##client.run('NTI4NDAzNTc4NTY2NjA2ODUz.XCbgLg.d5_1tAZC7aAtdar4EpWjZw3DAT4')
 
-account_sid = 'AC15a9d7524cc4ba68aa3e811f5af1c518'
-auth_token = 'aac19ec53b74babff43b9c3237c71f8a'
 client = Client(account_sid, auth_token)
 
 my_url = 'https://ws.petango.com/webservices/adoptablesearch/wsAdoptableAnimals.aspx?species=Dog&gender=A&agegroup=UnderYear&location=&site=&onhold=A&orderby=name&colnum=3&css=http://ws.petango.com/WebServices/adoptablesearch/css/styles.css&authkey=io53xfw8b0k2ocet3yb83666507n2168taf513lkxrqe681kf8&recAmount=&detailsInPopup=No&featuredPet=Include&stageID=&wmode=opaque'
