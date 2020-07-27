@@ -20,7 +20,7 @@ container = containers[0]
 filename = "puppy.csv"
 f = open(filename, "w")
 
-headers = "id, name, gender, breed, age, location, image\n"
+headers = "id,name,gender,breed,age,location,image\n"
 
 f.write(headers)
 
